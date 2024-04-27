@@ -8,7 +8,7 @@ import (
 )
 
 type RESTController struct {
-	userService *userservice.Service
+	userService userservice.UserService
 }
 
 func NewRESTController(s *userservice.Service) *RESTController {
